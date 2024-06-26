@@ -281,6 +281,10 @@ By creating your own bridge network and connecting containers to it, you ensure 
 - **VOLUME**: Creates a mount point and marks it as externally mounted.
 - **ENV**: Sets environment variables in the container.
 
+  ## What is the base image in docker?
+
+  A base image in containerization is the foundational layer for creating container images, containing the essential files, libraries, and tools needed to run applications. It can be a minimalistic version of an operating system like Ubuntu, Debian, or Alpine, and serves as the starting point in a Dockerfile with the FROM instruction.
+
 ## 20. Explain Docker Swarm?
 
 **Docker Swarm**:
