@@ -32,8 +32,12 @@ When Docker is installed, it consists of various components:
   - Similar to COPY but can also fetch files from URLs.
   - Offers more flexibility by allowing copying from URLs.
 
-## 6. what is difference between CMD and ENTRYPOINT
+## 6. what is difference between CMD and ENTRYPOINT?
 
+CMD: Default parameters can be overridden from Docker CLI while running a docker container.
+
+ENTRYPOINT: Default parameters cannot be overridden while executing Docker containers with CLI
+prameters 
 - **Execution Context:**
   - CMD specifies the default command to run when a container starts, typically defining the primary executable process.
   - ENTRYPOINT specifies the command that will be executed when the container starts, often used as the main entry point for the application.
